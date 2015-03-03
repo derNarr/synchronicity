@@ -14,7 +14,7 @@ import sys
 
 sys.path.append("..")
 
-from coherence.simulate import run_simulation, init_simulation
+from synchronicity.simulate import run_simulation, init_simulation
 
 start = int(sys.argv[1])
 stop = int(sys.argv[2])
